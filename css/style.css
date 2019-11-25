@@ -6,12 +6,11 @@
 .content {
   height: 400px;
   width: 100%;
-  background:#E1E7F5;
 }
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  background: #E1E7F5;
+  background: var(--mainLight);
   margin: 0;
   padding: 0;
 }
