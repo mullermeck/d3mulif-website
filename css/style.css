@@ -21,7 +21,7 @@ body {
 .heading-underline {
   width: 4rem;
   height: .2rem;
-  margin:0 auto 2rem;
+  margin:0 auto 1rem;
 }
 .text-dark {
   color:var(--mainDark) !important;
