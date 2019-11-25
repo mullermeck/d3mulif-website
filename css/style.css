@@ -7,6 +7,12 @@
   height: 400px;
   width: 100%;
 }
+.contain {
+  display: block;
+  position: relative;
+  height: 100%;
+  min-width:100%;
+}
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
@@ -19,9 +25,14 @@ body {
   font-size: 1.3rem !important;
 }
 .heading-underline {
-  width: 4rem;
   height: .2rem;
   margin:0 auto 1rem;
+}
+.hu-1 {
+  width: 4rem;
+}
+.hu-2 {
+  width: 6rem;
 }
 .text-dark {
   color:var(--mainDark) !important;
@@ -84,7 +95,7 @@ body {
   min-height: 70vh;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 .caption {
   width: 100%;
@@ -148,11 +159,4 @@ hr.socket {
   width: 100%;
   border-top: .2rem solid var(--mainLight);
   margin-top: 3rem;
-}
-
-@media (max-width: 552px) {
-  .img-fluid {
-    height: 7rem !important;
-    width: 7rem !important;
-  }
 }
