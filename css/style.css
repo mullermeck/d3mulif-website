@@ -97,20 +97,21 @@ body {
   transform: translateY(-50%);
   z-index: 1;
   color: #fff;
-  text-transform: uppercase;
   user-select: none;
 }
 .caption h1{
   font-size: 3.25rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
   text-shadow: .1rem .1rem .8rem black; 
   padding-bottom: .4rem;
-}
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;}
 .caption h3 {
   font-size: 1.2rem;
   text-shadow: .1rem .1rem .1rem black;
   padding: 0rem 1rem .6rem 1rem;
+  font-weight: 600;
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /*--- Samarbeten ---*/
 .clearfix img {
