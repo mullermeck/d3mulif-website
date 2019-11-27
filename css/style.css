@@ -92,7 +92,7 @@ body {
   max-width: 100%;
   position: absolute;
   top: 40%;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   z-index: 1;
   color: #fff;
   text-transform: uppercase;
