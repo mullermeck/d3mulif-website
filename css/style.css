@@ -55,6 +55,8 @@ body {
   height: 3.8rem;
   text-transform: initial;
   font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Righteous', cursive;
 }
 
 .navbar-brand img{
