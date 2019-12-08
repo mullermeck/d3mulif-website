@@ -18,6 +18,7 @@ body {
 .heading-underline {
   height: .2rem;
   margin:0 auto 1rem;
+  background:var(--mainTint)
 }
 .hu-1 {
   width: 5rem;
@@ -114,6 +115,13 @@ body {
   font-weight: 600;
   font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+/*--- Om oss ---*/
+.svg-inline--fa {
+  font-size: 8rem;
+}
+
+
+
 /*--- Samarbeten ---*/
 .clearfix img {
   max-height: 200px;
