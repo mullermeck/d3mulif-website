@@ -149,7 +149,7 @@ body {
 }
 /*--- Footer ---*/
 
-footer img {
+.footer-logo {
   height: 7rem;
   width: 7rem;
   margin-bottom: 1rem;
@@ -171,10 +171,12 @@ footer svg.svg-inline--fa {
 .fa-facebook-square:hover,
 .fa-facebook-square:focus {
   color: #3b5998;
+  transform: scale(0.9);
 }
 .fa-instagram:hover,
 .fa-instagram:focus{
   color: #517fa4;
+  transform: scale(0.9);
 }
 hr.socket {
   width: 100%;
