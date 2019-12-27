@@ -89,13 +89,12 @@ body {
 
 /*--- Landing page ---*/
 .parallax {
-    background-image: url(/img/landing.jpg);
-    height: 80%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/img/landing.jpg) center/cover;
 }
+
 .caption {
   width: 100%;
   max-width: 100%;
