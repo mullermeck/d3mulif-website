@@ -183,6 +183,9 @@ hr.socket {
   border-top: .2rem solid var(--mainLight);
   margin-top: 3rem;
 }
+.swish {
+  height: 30px!important;
+}
 
 
 @media (max-width: 500px) {
