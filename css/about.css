@@ -1,0 +1,34 @@
+.bg-primary {
+  background: linear-gradient(0.1turn , rgb(12, 15, 22) 60%, 90%, rgb(24, 47, 56));
+}
+.bg-secondary {
+  background: linear-gradient(0.1turn ,rgb(185, 102, 54), rgb(0, 0, 0));
+}
+.text-white {
+  color: rgb(219, 219, 219);
+}
+.main-logo {
+  width: 15%!important;
+}
+.main-logo img {
+  height: 5rem;
+  width: 5rem;
+}
+i {
+  color: rgb(219, 219, 253);
+}
+.main-header {
+  font-size: calc(1rem + 6vw);
+}
+.addNorth {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/img/wallAddNorth.jpg);
+  background-size: cover;
+}
+.addNorth img {
+  height: 10rem;
+}
+@media (min-width: 768px) {
+  .main-header {
+    font-size: calc(1rem + 3vw);
+  }
+}
